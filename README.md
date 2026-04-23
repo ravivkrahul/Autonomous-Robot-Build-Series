@@ -142,12 +142,15 @@ All source code, split by domain:
 
 ## 🚀 Getting Started
 
-Clone the repo and install dependencies for the Python modules (Raspberry Pi recommended):
-
+### One-shot setup
+ 
+A single `setup.sh` script installs every system package, creates a Python virtual environment, installs all pip dependencies, and enables the required interfaces (I2C, SSH, VNC).
+ 
 ```bash
-git clone <repo-url>
+git clone https://github.com/ravivkrahul/Autonomous-Robot-Build-Series
 cd AUTONOMOUS-ROBOT-BUILD-SERIES
-pip install -r requirements.txt  
+chmod +x setup.sh
+./setup.sh
 ```
 
 ### Run the contour detection pipeline
