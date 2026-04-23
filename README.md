@@ -102,6 +102,7 @@ AUTONOMOUS-ROBOT-BUILD-SERIES/
 │
 ├── .gitignore
 ├── Arena_layout_and_QR_Codes.pdf            # Arena layout & QR code reference
+├── setup.sh
 └── README.md
 ```
 
