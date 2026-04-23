@@ -72,7 +72,7 @@ AUTONOMOUS-ROBOT-BUILD-SERIES/
 │   ├── localization/
 │   │   └── encoder vs encoder+imu/
 │   │       ├── encoder.py                   # Encoder-only odometry
-│   │       ├── encoderonlyplot.py           # Plotting helper
+│   │       ├── plotter.py                   # Plotting helper
 │   │       └── imuencoder.py                # Fused encoder + IMU odometry
 │   │
 │   ├── utils/                               # Hardware test & helper utilities
